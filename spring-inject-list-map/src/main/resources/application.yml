@@ -1,0 +1,8 @@
+dbcon:
+  tenants:
+    tenant1:
+      host: serve1.synchro.com.br
+      port: 1521
+    tenant2:
+      host: server2.synchro.com.br
+      port: 1522
