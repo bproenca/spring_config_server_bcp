@@ -1,0 +1,22 @@
+server:
+  port: 8888
+
+logging:
+  level:
+    '[org.springframework.cloud.config.server]': DEBUG
+
+info:
+    app:
+        name: Config Server BCP
+        description: Centralized Config Server using Git
+
+spring:
+    application:
+        name: config-server-bcp
+    cloud:
+      config:
+        server:
+          git:
+            uri: git@git.synchro.com.br:BCP/bcp_config_repo.git
+            ignoreLocalSshSettings: true
+            privateKey: ${SSH_KEY_BCP}

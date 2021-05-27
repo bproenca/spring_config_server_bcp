@@ -1,3 +1,0 @@
-service-a:
-    role: ProdA
-    pass: '{cipher}11c338a462960764b470faf8db9a929718eefbb6a29de56bf734d3c620ec7b91'
